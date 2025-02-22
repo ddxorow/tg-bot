@@ -1,8 +1,9 @@
 import telebot
 from telebot import types # для указание типов
-import os
-
-
+a=str(open('pro.txt'))
+for i in a:
+    
+    print(i)
 
 
 bot = telebot.TeleBot('7365286742:AAEv6qWBpvodpRNinVveNPhsAsF5LLMpv8U')
